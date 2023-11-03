@@ -6,3 +6,5 @@ The "magic" happens in `src/run_star_extras.f90`, which calls GYRE with the supp
 It only happens if the `&control` parameter `x_logical_ctrl(1) = .true.` is set, as in the provided inlist. 
 
 You may need to adjust some things in the GYRE inlist to your needs, such as the frequency scan range or the numerical scheme, but probably it's plug-and-play for most applications. 
+
+Based on this [tutorial](https://github.com/earlbellinger/mesa-summer-school-2022) for the MESA Summer School. 
